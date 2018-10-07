@@ -9,3 +9,7 @@ fields:
   description: date
   config:
     required: true
+- type: tag_list
+  label: tags
+  name: tags
+  description: Comma separated tags
