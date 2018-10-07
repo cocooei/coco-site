@@ -1,0 +1,11 @@
+---
+label: Draft
+hide_body: false
+is_partial: false
+fields:
+- type: datetime
+  label: Date
+  name: date
+  description: date
+  config:
+    required: true
