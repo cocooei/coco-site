@@ -1,10 +1,10 @@
-+++
-date = "2018-10-07T13:10:45+00:00"
-tags = ["noob", "hugo"]
-title = "It's Alive!!!1"
+---
+author: "Coco oei"
+date: 2014-09-28
+linktitle: It's Alive!
+title: It's Alive!
+---
 
-+++
-dfl;dsjfdklgjkdflgjdf
 
 # Ideas and perspectives you won’t find anywhere else.
 
