@@ -13,3 +13,5 @@ fields:
   label: tags
   name: tags
   description: Comma separated tags
+pages:
+- content/post/it's-alive!!!1.md
