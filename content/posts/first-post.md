@@ -1,6 +1,6 @@
 ---
 author: "Coco Oei"
-date: 2014-09-28
+date: 2018-10-08
 linktitle: Welcome to my blog!
 title: Proverbial First Post
 ---
