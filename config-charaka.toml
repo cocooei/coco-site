@@ -1,0 +1,35 @@
+baseurl = "https://cocooei.netlify.com"
+languageCode = "en"
+title = "Coco Oei"
+theme = "charaka-hugo-theme"
+copyright = "&copy; <a href=\"https://github.com/cocooei\">Coco Oei</a> 2018"
+disqusShortname = ""
+googleAnalytics = ""
+
+[params]
+
+[author]
+  name = "Coco Oei"
+  homepage = "https://cocooei.com"
+
+[params.highlight]
+  style = "zenburn"
+
+[params.share]
+  enabled = "true"
+
+[[params.social]]
+  url = "about"
+  fa_icon = "fas fa-info"
+
+[[params.social]]
+  url = "https://github.com/cocooei/"
+  fa_icon = "fab fa-github"
+
+[[params.social]]
+  url = "https://www.linkedin.com/in/cocooei/"
+  fa_icon = "fab fa-linkedin-in"
+
+[[params.social]]
+  url = "https://twitter.com/cocooei/"
+  fa_icon = "fab fa-twitter"
