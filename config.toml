@@ -14,7 +14,7 @@ pygmentscodefences  = true
 
 [[menu.main]]
     name = "About"
-    url  = "https://cocooei.com/about"
+    url  = "https://www.cocooei.com/about/about/"
 [[menu.main]]
     name = "Vimeo"
     url  = "https://vimeo.com/cocooei"
