@@ -1,23 +1,97 @@
-baseurl = "https://www.cocooei.com/"
+# Site settings
+baseURL = "https://about.cocooei.com"
+languageCode = "en-US"
 title = "Coco Oei"
-author = "Coco Oei"
-canonifyurls = true
-languagecode = "en"
-theme = "black-and-light"
+theme = "hugo-split-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 
-pygmentsstyle       = "bw"
-pygmentscodefences  = true
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Copyright
+copyright = "&copy;2018 Coco Oei"
 
 [params]
-  sitename = "Coco Oei"
-  disableWebFonts = false
 
-[[menu.main]]
-    name = "About"
-    url  = "https://www.cocooei.com/about/about/"
-[[menu.main]]
-    name = "Vimeo"
-    url  = "https://vimeo.com/cocooei"
-[[menu.main]]
-    name = "Soundcloud"
-    url  = "https://soundcloud.com/moodyteenager"
+  # Metadata for search engines and social sharing
+  author = "Coco Oei"
+  description = "Coco Oei is a writer, filmmaker, and human-rights advocate from Metro Manila. Graduate of Communication Arts from De La Salle University. Currently working at [Dakila](http://www.dakila.org.ph/): The Philippine Collective of Modern Heroism."
+  shareImage = "images/social.jpg"
+  twitterHandle = "cocooei"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "Blog"
+        url = "http://cocooei.com"
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "coco.oei@gmail.com"
+
+      [[params.links.list1.link]]
+        text = "Newsletter"
+        url = "http://tinyletter.com/cocooei"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "Twitter"
+        url = "#"
+
+      [[params.links.list2.link]]
+        text = "Instagram"
+        url = "http://instagram.com/cocooei"
+
+      [[params.links.list2.link]]
+        text = "Vimeo"
+        url = "http://vimeo.com/cocooei"
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Network"
+
+      [[params.links.list3.link]]
+        text = "Link One"
+        url = "#"
+
+      [[params.links.list3.link]]
+        text = "Link Two"
+        url = "#"
+
+      [[params.links.list3.link]]
+        text = "Link Three"
+        url = "#"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
